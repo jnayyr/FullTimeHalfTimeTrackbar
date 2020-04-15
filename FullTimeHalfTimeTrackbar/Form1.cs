@@ -19,7 +19,7 @@ namespace FullTimeHalfTimeTrackbar
 
         private void trkCredits_Scroll(object sender, EventArgs e)
         {
-            int credits = trkCredits.Value;
+            int credits = trkCredits.Value; //trackbar value
 
             // Show TrackBar value in lblCredits for user feedback
             lblCredits.Text = trkCredits.Value.ToString();
